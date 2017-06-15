@@ -1,0 +1,19 @@
+{
+  "name": "superherojs",
+  "version": "1.0.0",
+  "description": "\"first description\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katysun10/SuperheroJS.git"
+  },
+  "author": "Katy Sun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katysun10/SuperheroJS/issues"
+  },
+  "homepage": "https://github.com/katysun10/SuperheroJS#readme"
+}
