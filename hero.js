@@ -1,4 +1,3 @@
-
 function SuperHero(superName, numPowers, powers, sigAttack, archEnemy, secretIdentity, gadgetsInBase){
     this.superName = superName;
     this.numPowers = numPowers;

@@ -1,4 +1,3 @@
-
 var NewsReporter = require("./reporter").NewsReporter;
 var SuperHero = require("./hero").SuperHero;
 var NewsStation = require("./station").NewsStation;

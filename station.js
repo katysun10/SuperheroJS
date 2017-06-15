@@ -1,4 +1,3 @@
-
 function NewsStation(name, employeeRate, targetHero){
     this.name = name;
     this.employeeRate = employeeRate;
