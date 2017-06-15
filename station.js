@@ -1,6 +1,6 @@
 
-function NewsStation(Name, employeeRate, targetHero){
-    this.name = Name;
+function NewsStation(name, employeeRate, targetHero){
+    this.name = name;
     this.employeeRate = employeeRate;
     //interview
     var reporterSent = false;

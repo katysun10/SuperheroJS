@@ -2,20 +2,18 @@
 var NewsReporter = require("./reporter").NewsReporter;
 var SuperHero = require("./hero").SuperHero;
 var NewsStation = require("./station").NewsStation;
-
-var piggyPowers = ["the sonic squeal", " and the ham(mer) punch"];
-var gadgetsInBase = ["laser gun", "cape"];
+var piggyPowers = require("./constants").piggyPowers;
+var gadgetsInBase = require("./constants").gadgetsInBase;
 
 var SpiderPig = new SuperHero("Spider Pig", piggyPowers.length, 
                               piggyPowers, "Hammie Whammie", 
                               "The Butcher", "Peter Porker",
                               gadgetsInBase);
 
-var DailyBugle = new NewsStation("DailyBugle", 5000, "Spider Pig");
+var DailyBugle = new NewsStation("Daily Bugle", 5000, "Spider Pig");
 
 var JJ = new NewsReporter("Jonah", "Jameson", 
-                            9, 1000, "Spider Pig", 
-                            "Daily Bugle", SpiderPig, 
+                            9, 1000, SpiderPig, 
                             DailyBugle);
 
 //---------------------------------------------now lets test it--------------------------------------------//
